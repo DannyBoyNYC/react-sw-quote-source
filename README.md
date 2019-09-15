@@ -1,3 +1,8 @@
+# Source files to Create Private NPM package
+
+See inClass branch for finals
+
+
 <br />
 <p align="center">
   <h1 align="center">Writing Shareable Custom React Hooks</h1>
@@ -16,13 +21,14 @@
 
 ## Table of Contents
 
-- [About the Workshop](#about-the-workshop)
-  - [Workshop Goals](#workshop-goals)
-  - [Workshop Outcomes](#workshop-outcomes)
-- [Prerequisites](#prerequisites)
-- [Pre-Workshop Instructions](#pre-workshop-instructions)
-- [Further Learning](#further-learning)
-- [Resources](#resources)
+- [Source files to Create Private NPM package](#source-files-to-create-private-npm-package)
+  - [Table of Contents](#table-of-contents)
+  - [About The Workshop](#about-the-workshop)
+    - [Workshop Goals](#workshop-goals)
+    - [Workshop Outcomes](#workshop-outcomes)
+  - [Prerequisites](#prerequisites)
+  - [Pre-Workshop Instructions](#pre-workshop-instructions)
+  - [Resources](#resources)
 
 ## About The Workshop
 
