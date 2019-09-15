@@ -1,10 +1,10 @@
-import React from 'react'
-import { Form, Label, Textarea, Button, Title } from './Feedback.styles'
+import React from 'react';
+import { Form, Label, Textarea, Button, Title } from './Feedback.styles';
 
 export class FeedbackClassComponent extends React.Component {
   state = {
     text: ''
-  }
+  };
 
   componentDidMount() {
     // Get placeholder text
@@ -14,24 +14,24 @@ export class FeedbackClassComponent extends React.Component {
         this.setState({
           text: data.starWarsQuote
         })
-      )
+      );
   }
 
   // Handle form submission
   handleSubmit(e) {
-    e.preventDefault()
-    console.log(`Submitting response to API: "${this.state.text}"`)
+    e.preventDefault();
+    console.log(`Submitting response to API: "${this.state.text}"`);
     this.setState({
       text: ''
-    })
+    });
   }
   // Update text in state onchange for textarea
   handleTextChange(e) {
-    const updatedText = e.target.value
+    const updatedText = e.target.value;
 
     this.setState({
       text: updatedText
-    })
+    });
   }
 
   render() {
@@ -45,8 +45,8 @@ export class FeedbackClassComponent extends React.Component {
             onChange={e => this.handleTextChange(e)}
           />
         </Label>
-        <Button type="submit">Submit</Button>
+        <Button type='submit'>Submit</Button>
       </Form>
-    )
+    );
   }
 }
